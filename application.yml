@@ -1,0 +1,9 @@
+---
+- name: App actions
+  hosts: "*{{ scope }}"
+  gather_facts: yes
+  become: yes
+  tasks:
+    - name: Install the "Is it cat" aplication from its role on {{ scope }} instances
+      include_role:
+        name: is_it_cat

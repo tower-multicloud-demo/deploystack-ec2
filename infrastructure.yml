@@ -1,0 +1,10 @@
+---
+- name: Create AWS Infrastructure and deploy Cat or Not Cat Application
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: Including ec2 role
+      include_role: ec2
+
+
+      

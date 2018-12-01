@@ -1,0 +1,4 @@
+---
+- import_playbook: infrastructure.yml
+- import_playbook: application.yml
+- import_playbook: loadbalancer.yml
