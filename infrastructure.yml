@@ -4,7 +4,8 @@
   connection: local
   tasks:
     - name: Including ec2 role
-      include_role: ec2
+      include_role: 
+        name: ec2
 
 
       
