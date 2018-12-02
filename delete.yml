@@ -1,0 +1,9 @@
+---
+- name: ec2 actions
+  hosts: localhost
+  gather_facts: no
+  tasks:
+    - name: ec2 delete
+      include_role: 
+        name: ec2
+        tasks_from: ec2_delete
