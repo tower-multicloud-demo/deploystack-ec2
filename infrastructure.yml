@@ -1,5 +1,5 @@
 ---
-- name: Create AWS Infrastructure and deploy Cat or Not Cat Application
+- name: Create AWS Infrastructure
   hosts: localhost
   connection: local
   tasks:
