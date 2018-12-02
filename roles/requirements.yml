@@ -1,6 +1,6 @@
 - src: https://github.com/automaticdavid/ec2
-  version: origin/devel
+  version: devel
   name: ec2
 - src: https://github.com/automaticdavid/is_it_cat
-  version: origin/devel
+  version: devel
   name: is_it_cat
