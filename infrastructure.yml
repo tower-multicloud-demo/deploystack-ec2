@@ -4,8 +4,5 @@
   connection: local
   tasks:
     - name: Including ec2 role for infrastructure creation
-      include_role: 
+      include_role:
         name: ec2
-
-
-      
