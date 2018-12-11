@@ -4,6 +4,10 @@
   gather_facts: no
   tasks:
     - name: Include tasks for load balancer control
+      vars:
+        ec2_lb_filters:
+          "tag:Name": "{{ ec2_scope }}"
+          "instance-state-name": running
       include_role:
         name: ec2
         tasks_from: ec2_loadbalancer.yml
