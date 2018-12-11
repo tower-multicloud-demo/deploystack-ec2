@@ -11,3 +11,4 @@
         ec2_lb_filters: 
           'tag:Name': "{{ ec2_scope }}"
           'instance-state-name': running
+        ec2_lb_target_port: 80
