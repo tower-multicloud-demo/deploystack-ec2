@@ -6,3 +6,7 @@
     - name: Including ec2 role for infrastructure creation
       include_role:
         name: ec2
+      vars:
+        ec2_lb_filters: 
+          'tag:Name': "{{ ec2_scope }}"
+          'instance-state-name': running

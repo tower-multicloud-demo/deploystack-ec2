@@ -8,6 +8,6 @@
         name: ec2
         tasks_from: ec2_loadbalancer.yml
       vars:
-        ec2_lb_filters: toto
-        #  'tag:Name': "{{ ec2_scope }}"
-        #  'instance-state-name': running
+        ec2_lb_filters: 
+          'tag:Name': "{{ ec2_scope }}"
+          'instance-state-name': running
