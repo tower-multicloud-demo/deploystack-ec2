@@ -1,6 +1,6 @@
 ---
 - name: Install the application
-  hosts: "*{{ scope }}"
+  hosts: "webservers"
   gather_facts: no
   become: yes
   remote_user: ec2-user
