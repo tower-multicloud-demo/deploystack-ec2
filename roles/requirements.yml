@@ -1,6 +1,6 @@
-- src: https://github.com/automaticdavid/ec2
+- src: https://github.com/tower-multicloud-demo/role-ec2.git
   version: master
-  name: ec2
-- src: https://github.com/automaticdavid/is_it_cat
+  name: role-ec2
+- src: https://github.com/tower-multicloud-demo/role-app.git
   version: master
-  name: is_it_cat
+  name: role-app
