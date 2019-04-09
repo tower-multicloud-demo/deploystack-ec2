@@ -2,6 +2,7 @@
 - name: Create AWS Infrastructure
   hosts: localhost
   connection: local
+  gather_facts: False
   tasks:
     - name: Including ec2 role for infrastructure creation
       include_role:
